@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <style>
-        ul
-        {
-            padding-left: 20px; /* Poți reduce și mai mult dacă vrei */
-            margin-left: 0;
-            list-style-position: inside;
-            text-align:center;
-            
-        }
+       ul {
+        list-style-position: inside; /* Pune bulina lângă text */
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    ul li {
+        list-style-type: disc; /* Asigură-te că folosești bulină */
+        display: flex;
+        align-items: center; /* Centrează bulina vertical față de text */
+    }
         *{
             color:black;
             text-align:center;
